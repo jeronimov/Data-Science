@@ -5,7 +5,8 @@ date: "March 20, 2015"
 ---
 
 ###Subject (2)
-The person identifier who performed activitiesValues: 1..30
+The person identifier who performed activities
+1..30
 
 ###Activity (1)
 One of the six activity identifier
@@ -17,9 +18,10 @@ One of the six activity identifier
 5 .STANDING
 6 .LAYING
 
-Variable	Factor w/ 66 levels
+###Variable (Factor w/ 66 levels)
 Each of sensor signals captured during person performing activities
-	1 .Time_Body_Acceleration_Standard_Deviation_X                      
+
+ 1 .Time_Body_Acceleration_Standard_Deviation_X                      
  2 .Time_Body_Acceleration_Standard_Deviation_Y                      
  3 .Time_Body_Acceleration_Standard_Deviation_Z                      
  4 .Time_Gravity_Acceleration_Standard_Deviation_X                   
@@ -86,6 +88,6 @@ Each of sensor signals captured during person performing activities
 65 .Frequency_Body_Angular_Velocity_Magnitude_Mean_Value             
 66 .Frequency_Body_Angular_Velocity_Jerk_Magnitude_Mean_Value
 
-Value		num
+###Value
 The average of mean/standard deviation of sensor signals values
 -0.928 -0.837 -0.826 -0.897 -0.908 ...
